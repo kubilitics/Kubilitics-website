@@ -920,11 +920,11 @@ function TerminalSection() {
             <div className="inline-flex flex-col sm:flex-row items-center gap-4 p-2 pl-6 rounded-2xl border border-white/5 bg-white/[0.02] backdrop-blur-md">
               <span className="text-white/40 text-xs font-mono">Quick Install:</span>
               <code className="text-[#6EF09E] font-mono text-sm px-4 py-2 rounded-lg bg-black/40 border border-white/5 leading-none">
-                curl -fsSL https://get.kubilitics.io/kcli | sh
+                curl -fsSL https://get.kubilitics.com/kcli | sh
               </code>
               <button
                 className="p-3 rounded-xl bg-[#326CE5] text-white hover:bg-[#1F56CC] transition-all shadow-lg"
-                onClick={() => navigator.clipboard.writeText('curl -fsSL https://get.kubilitics.io/kcli | sh')}
+                onClick={() => navigator.clipboard.writeText('curl -fsSL https://get.kubilitics.com/kcli | sh')}
               >
                 <Copy size={16} />
               </button>
